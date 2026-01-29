@@ -1,0 +1,20 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (scripts/ ディレクトリ用)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large assets or confidential documents
+# 試験のPDF資料や会社機密を含む資料を誤ってアップロードしないための設定
+assets/*.pdf
+assets/*.zip
+!assets/README.md
